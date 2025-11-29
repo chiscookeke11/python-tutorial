@@ -71,3 +71,23 @@ print(capital_city.keys())
 
 # Using the values() method
 print(capital_city.values())
+
+
+
+# We can test if a key is in a dict
+# This test only the keys
+squares  = {
+    1: 1,
+    2: 4,
+    5: 6
+}
+
+print(1 in squares)
+print(9 in squares)
+print(9 not in squares)
+
+
+
+# interating through a dict
+for i in squares:
+    print(squares[i])
