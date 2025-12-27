@@ -63,10 +63,15 @@ with open("dayTwo.py", "r", encoding="utf-8") as file:
 
 
     # wrting and appending to a file
-with open("daytwo.py", "w", encoding="utf-8") as file:
-    file.write("Hello python!")
+# with open("daytwo.py", "w", encoding="utf-8") as file:
+#     file.write("Hello python!")
 
 
 
     # Closing files
-    file.close()
+    # file.close()
+
+
+    with open("error-handling.py", "w", encoding="utf-8") as file:
+        file.write("Hello, this file was just created!")
+
